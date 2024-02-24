@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <script defer src="quiz.js"></script>
+    <title>Create Quiz</title>
+</head>
+<body style="background-color:burlywood;">
+    <div class="container">
+        <h1>Create a Quiz</h1>
+        <fieldset style="background-color:aquamarine;">
+            <form id="quizForm">
+                <label for="quizTitle">Quiz Title:</label>
+                <input type="text" id="quizTitle" name="quizTitle" required><p></p>
+                <div id="questionsContainer">
+                    <div class="question">
+                        <label for="question1">Question 1:</label>
+                        <input type="text" id="question1" name="question1" required><br><p></p>
+                        <label for="option1_1">Option 1:</label>
+                        <input type="text" id="option1_1" name="option1_1" required><br>
+                        <input type="radio" name="correct1" value="option1_1"> Correct<br><p></p>
+                        <label for="option1_2">Option 2:</label>
+                        <input type="text" id="option1_2" name="option1_2" required><br>
+                        <input type="radio" name="correct1" value="option1_2"> Correct<br><p></p>
+                        <label for="question1">Question 2:</label>
+                        <input type="text" id="question1" name="question1" required><br><p></p>
+                        <label for="option1_1">Option 1:</label>
+                        <input type="text" id="option1_1" name="option1_1" required><br>
+                        <input type="radio" name="correct1" value="option1_1"> Correct<br><p></p>
+                        <label for="option1_2">Option 2:</label>
+                        <input type="text" id="option1_2" name="option1_2" required><br>
+                        <input type="radio" name="correct1" value="option1_2"> Correct<br><p></p>
+                        <label for="question1">Question 3:</label>
+                        <input type="text" id="question1" name="question1" required><br><p></p>
+                        <label for="option1_1">Option 1:</label>
+                        <input type="text" id="option1_1" name="option1_1" required><br>
+                        <input type="radio" name="correct1" value="option1_1"> Correct<br><p></p>
+                        <label for="option1_2">Option 2:</label>
+                        <input type="text" id="option1_2" name="option1_2" required><br>
+                        <input type="radio" name="correct1" value="option1_2"> Correct<br><p></p>
+                        <label for="question1">Question 4:</label>
+                        <input type="text" id="question1" name="question1" required><br><p></p>
+                        <label for="option1_1">Option 1:</label>
+                        <input type="text" id="option1_1" name="option1_1" required><br>
+                        <input type="radio" name="correct1" value="option1_1"> Correct<br><p></p>
+                        <label for="option1_2">Option 2:</label>
+                        <input type="text" id="option1_2" name="option1_2" required><br>
+                        <input type="radio" name="correct1" value="option1_2"> Correct<br><p></p>
+                        <label for="question1">Question 5:</label>
+                        <input type="text" id="question1" name="question1" required><br><p></p>
+                        <label for="option1_1">Option 1:</label>
+                        <input type="text" id="option1_1" name="option1_1" required><br>
+                        <input type="radio" name="correct1" value="option1_1"> Correct<br><p></p>
+                        <label for="option1_2">Option 2:</label>
+                        <input type="text" id="option1_2" name="option1_2" required><br>
+                        <input type="radio" name="correct1" value="option1_2"> Correct<br><p></p>
+                    </div>
+                </div>
+            </form>
+            <center>
+                <button onclick="submitQuiz()">Submit Quiz</button>
+            </center>
+        </fieldset>
+    </div>
+</body>
+</html>
